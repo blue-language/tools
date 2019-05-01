@@ -7,5 +7,4 @@ echo "developer:x:${USER_ID}:${GROUP_ID}::/home/developer:/bin/zsh" >> /etc/pass
 echo "developer:x:${GROUP_ID}:" >> /etc/group
 
 sudo chown ${USER_ID}:${GROUP_ID} /home/developer
-sudo chown ${USER_ID}:${GROUP_ID} /home/developer/.config
 sudo chown ${USER_ID}:${GROUP_ID} /home/developer/.oh-my-zsh/cache
