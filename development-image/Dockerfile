@@ -13,7 +13,7 @@ RUN set -ex \
     zsh \
     nano \
     cmake \
-    g++ \
+    g++-8 \
     wget \
     gnupg \
     zlib1g-dev
